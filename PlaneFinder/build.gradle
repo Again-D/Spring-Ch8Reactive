@@ -28,6 +28,8 @@ dependencies {
 //    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
     implementation 'org.springframework.boot:spring-boot-starter-data-r2dbc'
     implementation 'org.springframework.boot:spring-boot-starter-webflux'
+    // RSocket 적용... 1) 의존성추가
+    implementation 'org.springframework.boot:spring-boot-starter-rsocket'
     compileOnly 'org.projectlombok:lombok'
     // 추가로 r2dbc - reactive로 연결할 h2 DB
     runtimeOnly 'io.r2dbc:r2dbc-h2'

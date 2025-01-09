@@ -32,6 +32,8 @@ dependencies {
 	// reactive를 통한 웹 구성...
 //	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.boot:spring-boot-starter-webflux'
+	// RSocket 적용 - 1) 의존성 추가
+	implementation 'org.springframework.boot:spring-boot-starter-rsocket'
 	compileOnly 'org.projectlombok:lombok'
 //	runtimeOnly 'com.h2database:h2'
 	annotationProcessor 'org.projectlombok:lombok'
